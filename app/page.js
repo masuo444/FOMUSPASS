@@ -176,7 +176,7 @@ const AuthScreen = ({ onLogin, addToast }) => {
           <div className="w-32 h-32 bg-white rounded-3xl flex items-center justify-center mb-6 shadow-[0_0_40px_rgba(193,152,101,0.2)] p-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="FOMUSlogo.jpg"
+              src="FOMUSlogo_edited.png"
               alt="FOMUS"
               className="w-full h-full object-contain"
               onError={(e) => {
@@ -870,7 +870,7 @@ export default function App() {
         <div className="h-16 px-6 flex justify-between items-center max-w-md mx-auto">
           <div className="flex items-center gap-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="FOMUSlogo.jpg" alt="FOMUS" className="h-8 w-auto object-contain" />
+            <img src="FOMUSlogo_edited.png" alt="FOMUS" className="h-8 w-auto object-contain" />
           </div>
           <div className="w-9 h-9 rounded-full bg-gradient-to-br from-gray-700 to-gray-800 border border-white/10 flex items-center justify-center shadow-lg">
             <User size={16} className="text-gray-400" />
